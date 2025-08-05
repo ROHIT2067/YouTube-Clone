@@ -1,0 +1,297 @@
+p {
+  font-family: roboto, arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+
+.video-title {
+
+  text-align: top;
+  margin-top: 0;
+  font-family: roboto, arial;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 15px;
+}
+
+.thumbnail {
+  width: 100%;
+  cursor: pointer;
+}
+
+.video-info-grid {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+
+
+
+.profile-logo {
+  width: 36px;
+  border-radius: 25px;
+}
+
+.thumbnail-row {
+  margin-bottom: 12px;
+  position: relative;
+}
+
+.video-owner {
+  font-size: 12px;
+  color: rgb(96, 96, 96);
+  margin-bottom: 5px;
+}
+
+.video-title,
+.video-owner,
+.profile-logo{
+  cursor: pointer;
+}
+
+.video-stats {
+  color: rgb(96, 96, 96);
+  font-size: 12px;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
+  margin-bottom: 25px;
+}
+
+body {
+  margin: 0;
+  padding-top: 80px;
+  padding-left: 98px;
+  padding-right: 25px;
+  background-color: rgb(248,248,248);
+}
+
+.header {
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(190, 183, 183);
+  z-index: 100;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.middle {
+  margin-left: 70px;
+  flex: 1;
+  margin-right: 35px;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+}
+
+.right {
+  width: 185px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 18px;
+  flex-shrink: 0;
+}
+
+.menu {
+  height: 24px;
+  margin-left: 24px;
+  margin-right: 24px;
+  cursor: pointer;
+
+}
+
+.utube-logo {
+  height: 20px;
+  cursor: pointer;
+
+}
+
+.search {
+  height: 40px;
+  width: 60px;
+
+}
+
+.voice {
+  height: 40px;
+  width: 40px;
+}
+
+#search-bar {
+  flex: 1;
+  height: 36px;
+  padding-left: 10px;
+  border-width: 0.3px;
+  border-style: solid;
+  border-color: rgb(221, 211, 211);
+  border-radius: 2px;
+  box-shadow: inset 0px 1px 2px rgba(238, 238, 238, 0.5);
+  font-size: 16px;
+  width: 0;
+}
+
+#search-bar::placeholder {
+  font-family: roboto, arial;
+  font-size: 16px;
+}
+
+#search {
+  height: 39px;
+  width: 66px;
+  background-color: rgb(247, 247, 247);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(204, 204, 204);
+  margin-left: -1px;
+  margin-right: 6px;
+
+}
+
+.voice {
+  height: 40px;
+  width: 40px;
+  border-radius: 25px;
+  background-color: rgb(236, 228, 228);
+  border-color: rgb(204, 204, 204);
+  border-width: 0;
+  cursor: pointer;
+
+}
+
+.search-icon {
+  height: 25px;
+  margin-top: 4px;
+  cursor: pointer;
+}
+
+
+.voice-icon {
+  height: 20px;
+  margin-top: 4px;
+
+}
+
+.upload {
+  height: 24px;
+  cursor: pointer;
+}
+
+.options {
+  height: 24px;
+  cursor: pointer;
+}
+
+.noti {
+  height: 24px;
+  cursor: pointer;
+}
+
+.notifi-count{
+  position: relative;
+}
+
+.not-count{
+  position: absolute;
+  top: -2px;
+bottom: 15px;
+left: 15px;
+background-color: rgb(204, 0, 0);
+border-radius: 83px;
+font-size: 10px;
+color: white;
+font-family: roboto,arial;
+padding-left: 6px;
+padding-bottom: 5px;
+padding-right: 6px;
+padding-top: 3.5px;
+text-align: center;
+font-weight: bold;
+}
+
+.user {
+  height: 32px;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+.sidebar{
+  position: fixed;
+  top: 55px;
+  left: 0;
+  bottom: 0;
+ width: 72px;
+  background-color: white;
+    z-index: 200;
+  padding-top: 5px;
+}
+
+.para1{
+ font-size: 12px;
+}
+
+
+.video-time{
+  color: white;
+  background-color: black;
+  position: absolute;
+  bottom: 8px;
+  border-radius: 3px;
+  right: 5px;
+  font-family: roboto,arial;
+  font-size: 12px;
+  font-weight: bold;
+  padding-left: 3px;
+  padding-bottom: 4px;
+  padding-right: 3px;
+  padding-top: 4px;
+} 
+
+
+
+.sidebar-link{
+  background-color: white;
+  height: 74px;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.sidebar-link:hover{
+  background-color: rgb(235, 235, 235);
+}
+
+.sidebar-link img{
+  height: 24px;
+  margin-bottom: 4px;
+  padding-left: 10px;
+}
+
+.sidebar-link div{
+  padding-left: 10px;
+  font-size: 9px;
+  font-family: roboto,arial;
+  align-items: center;
+  justify-content: center;
+}
